@@ -1,0 +1,106 @@
+.mainContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 3px 3px #1d1d03;
+  background: var(--background-color);
+  z-index: 1000;
+}
+
+.mainContainer > h2 {
+  color: var(--base-font);
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.holdmenu {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuItem {
+  height: 100%;
+  color: var(--base-font);
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.menuItem:hover {
+  color: var(--primary-color);
+}
+.activeLink {
+  color: #007bff; 
+  font-weight: bold;
+}
+
+
+.mainContainer > i {
+  display: none;
+  color: var(--base-font);
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 868px) {
+  .mainContainer {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+
+  .holdmenu {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background: var(--background-color);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    display: none;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .holdmenu.active {
+    display: flex;
+  }
+
+  .holdmenu > div {
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+
+  .mainContainer > i {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

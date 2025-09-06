@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --text-color: #FFF;
+  --primary-color: #0070f3;
+  --link-color: #1eaaf1;
+  --border-color: #eaeaea;
+  --background-color: #000000;
+  --hover-color: #171702;
+  --danger-color: #ff0000;
+  --success-color: #00ff00;
+  --warning-color: #ffcc00;
+  --info-color: #17a2b8;
+  --font-size-small: 0.875rem;
+  --base-font:#D4A76B;
+
+  --font-size-base: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maincontainer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--background-color);
+}
