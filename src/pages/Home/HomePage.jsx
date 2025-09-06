@@ -84,9 +84,9 @@ const HomePage = () => {
       <div id='contact' className={styles.thirdContainer}>
         <h2>Contact <span>Us</span></h2>
         <form className={styles.contactForm}>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Your Email" />
-          <textarea placeholder="Your Message"></textarea>
+          <input type="text" placeholder="Your Name" onChange={(e)=>setName(e.target.value)}/>
+          <input type="email" placeholder="Your Email" onChange={(e) => setEmail(e.target.value)}/>
+          <textarea placeholder="Your Message" onChange={(e)=>setMessage(e.target.value)}></textarea>
           <button type='submit' onClick={handelSubmit}>Send Message</button>
         </form>
       </div>
