@@ -16,7 +16,7 @@ const HeaderPage = () => {
 
   return (
     <div className={styles.mainContainer}>
-      <h2>PORTFOLIO</h2>
+      <h2>REACH-X</h2>
 
 
       <i

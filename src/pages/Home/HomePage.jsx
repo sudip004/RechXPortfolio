@@ -56,23 +56,23 @@ const HomePage = () => {
         <div className={styles.secright}>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_Recruitment.png?alt=media&token=ca805855-6554-4e6e-9fc1-eff6cb6ae154" alt="" />
-            <h3>Web Development</h3>
+            <h3>SpringBoot</h3>
           </div>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_Payroll.png?alt=media&token=fcc42ece-3bc4-4a3a-b390-0fc2da7db5df" alt="" />
-            <h3>Web Development</h3>
+            <h3>Blockchain</h3>
           </div>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_Sales.png?alt=media&token=b310485d-079a-47ed-9fa8-1abb41314bdd" alt="" />
-            <h3>Web Development</h3>
+            <h3>APP Development</h3>
           </div>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_TeamSetup.png?alt=media&token=b94ecfd9-e80e-449f-a4c3-f69c182a6bfe" alt="" />
-            <h3>Web Development</h3>
+            <h3>Annimation</h3>
           </div>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_OperationManagement.png?alt=media&token=25c10bc4-1cd6-4b86-86a8-d066ddb0d0bc" alt="" />
-            <h3>Web Development</h3>
+            <h3>Graphic Design</h3>
           </div>
           <div className={styles.cardmenu}>
             <img src="https://firebasestorage.googleapis.com/v0/b/hansrajventures-b8dea.appspot.com/o/ServiceImages%2Fimage1_WebApp.png?alt=media&token=c4761b1b-caa0-43fe-94c5-7c23823dd03e" alt="" />
@@ -100,7 +100,7 @@ const HomePage = () => {
         <div className={styles.aboutRight}>
           <h2>About <span>Us</span></h2>
           <p>
-            At Hansraj Ventures, we are dedicated to delivering IT solutions that help
+            At Reach-X, we are dedicated to delivering IT solutions that help
             businesses grow and succeed. With expertise in staffing, recruitment,
             digital marketing, and web development, our mission is to create value and
             drive performance for our clients.
